@@ -23,5 +23,5 @@ Bonus:
 
 ## Nota
 
-- Soy la pagina https://gomez50057.github.io/LaunchX-FrontEnd-Practica-CSS/
+- Soy la pagina https://gomez50057.github.io/LaunchX-FrontEnd-Practica-Js/
 
