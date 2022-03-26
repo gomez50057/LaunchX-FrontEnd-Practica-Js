@@ -1,0 +1,421 @@
+/* Days one */
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: rgba(222, 222, 222, 0.1); */
+    color: rgb(3, 3, 3, 0.6);
+
+}
+
+body {
+    
+    background-image: url(../images/banner.jpg);
+   
+  
+    background-size: 500%;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 500;
+}
+
+.pokedex {
+    height: 100vh;
+
+}
+
+
+.rectangle{
+    height: 84vh;
+    width: 200vh;
+    margin-left: 2%;
+    margin-top: 4%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 7% 100%, 0 87%);
+    background-color: #F3F4E8;
+    
+}
+
+.screen,
+.poison,
+.normal,
+.fire,
+.water,
+.electric,
+.grass,
+.ice, 
+.fighting,
+.poison,
+.ground,
+.flying,
+.psychic,
+.bug,
+.rock,
+.ghost,
+.dragon,
+.steel,
+.fairy {
+    width: 195vh;
+    height:65%;
+    position: absolute;
+    left: 3%;
+    margin: 20px 20px 20px 0;
+    border: none;
+    border-radius: 10% / 20%;
+    color: white;
+    text-align: center;
+    text-indent: 0.1em;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #1CC9F6;
+}
+
+.header {
+    display: flex;
+    margin-right: 80%;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.poke-info {
+    width: 220px;
+}
+
+.header h1 {
+    font-family: 'Days One', sans-serif;
+    margin-top: 10px;
+}
+
+.logo img {
+    object-fit: contain;
+}
+
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 15%;
+    
+}
+
+.main-info h2 {
+    padding: 1rem;
+    width: 145px;
+    text-align: left;
+}
+
+.main-abilities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    margin-top: -7%;
+}
+
+.main-abilities h2 {
+    padding: 1rem;
+    width: 200px;
+    text-align: right;
+}
+
+.main-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+#pokeAnima {
+    position: absolute;
+    font-size: 120px;
+    z-index: 1;
+}
+
+.main-image img {
+    width: 95%;
+    height: 95%;
+    object-fit: contain;
+    position: relative;
+    z-index: 11;
+}
+
+.main-abilities {
+    width: 190px;
+}
+
+.button-left {
+    min-width: 130px;
+    height: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #30F455;
+    box-shadow: 0 5px #24d845;
+}
+.button-left:hover {
+    box-shadow: 0 3px #24d845;
+    top: 1px;
+}
+.button-left:active {
+    box-shadow: 0 0 #24d845;
+    top: 5px;
+}
+
+.button-right {
+    text-align: right;
+    min-width: 130px;
+    height: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #FB8D56;
+    box-shadow: 0 5px #d6713e;
+}
+.button-right:hover {
+    box-shadow: 0 3px #d6713e;
+    top: 1px;
+}
+.button-right:active {
+    box-shadow: 0 0 #d6713e;
+    top: 5px;
+}
+
+.search {
+    width: 500px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+    transition: all .5s ease-in-out;
+    background-color: #F9EE60;
+}
+
+.search:hover {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search i {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.pokeName {
+    width: 90%;
+    height: 40px;
+    background: none;
+    outline: none;
+    border: none;
+    font-family: 'Days One', sans-serif;
+    color: rgb(3, 3, 3, 0.9);
+    letter-spacing: 2%;
+}
+
+.search input::placeholder {
+    font-family: 'Days one', sans-serif;
+    color: rgb(3, 3, 3, 0.2);
+}
+
+.keys{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    top: 80%;
+}
+
+.circle{
+    height: 13vh;
+    width: 13vh;
+    margin-left: 8%;
+    border-radius: 100px;
+    box-shadow:4px 4px rgba(0, 0, 0, 0.548);
+    background-color: #FF1A55;
+    position: relative;   
+}
+
+.arrows{
+    height: 13vh;
+    width: 13vh;
+    margin-right: 7%;
+    margin-top: .5%;
+    background-image: url(../images/arrows.png);
+    background-repeat:  no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container-rectanglee{
+    width: 60vh;
+    height: 6vh;
+    position: relative;
+    right: 5.5%;
+    top: -25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.controls{
+    width: 60vh;
+    height: 6vh;
+    position: relative;
+    left: 30%;
+    top: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.poison {
+    background: #A33EA1;
+}
+
+.normal {
+    background: #A8A77A;
+}
+
+.fire {
+    background: #EE8130;
+}
+
+.water {
+    background: #6390F0;
+}
+
+.electric {
+    background: #F7D02C;
+}
+
+.grass {
+    background: #7AC74C;
+}
+
+.ice {
+    background: #96D9D6;
+}
+
+.fighting {
+    background: rgba(194, 46, 40, 0.5);
+}
+
+.poison {
+    background: #A33EA1;
+}
+
+.ground {
+    background: #E2BF65;
+}
+
+.flying {
+    background: #A98FF3;
+}
+
+.psychic {
+    background: #F95587;
+}
+
+.bug {
+    background: #A6B91A;
+}
+
+.rock {
+    background: #B6A136;
+}
+
+.ghost {
+    background: #735797;
+}
+
+.dragon {
+    background: #6F35FC;
+}
+
+.dark {
+    background: #705746;
+}
+
+.steel {
+    background: #B7B7CE;
+}
+
+.fairy {
+    background: #D685AD;
+}
+
+.slide-in{
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+ }
+
+ @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
