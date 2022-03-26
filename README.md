@@ -18,6 +18,7 @@ ustedes seguirán con ese proyecto para tener cada quien el suyo con las siguien
     - Movimientos
 
 Bonus:
+- Bonus si tu página es responsive y se puede ver en celulares(no cumple)
 - Bonus de despliegue de tu pokedex
 - Bonus de uso de otras rutas como búsqueda por número de pokemón o mostrar un rango de pokemóns
 
